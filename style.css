@@ -1,0 +1,124 @@
+body {
+  background-color: #E0E2E1;
+  padding-top: 90px
+}
+
+button {
+	height: 50px;
+	width: 500px;
+}
+
+.block {
+	width: 400px;
+    padding: 20px;
+    border: 3px solid #7F7B7F;
+    border-radius: 10px;
+    background-color: #F6EDDD;
+    font-family:"JetBrains Mono";
+    text-align:center;
+    font-weight: bold;
+    margin-left: auto;       /* или просто margin: 0 auto; */
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.photo{
+height: 450px;
+  border-radius: 20px;
+  display: block;          /* делает img блочным элементом */
+  margin-left: auto;       /* или просто margin: 0 auto; */
+  margin-right: auto;
+  width: 20%;             /* или фиксированная ширина, например 400px */
+  max-width: 100%;  
+}
+.text {
+  font-family:"JetBrains Mono";
+  list-style: none;
+}
+
+.hello{
+font-family:"JetBrains Mono";
+ width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(20) forwards;
+    margin-left: auto;       /* или просто margin: 0 auto; */
+  margin-right: auto;
+   margin-top: -50px;
+   text-align: center;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 20ch;
+    }
+}
+
+
+
+.skills-block {
+border: 3px solid #7F7B7F;
+border-radius: 10px;
+padding: 20px;
+border-right-width:50px;
+widht: 30px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ 
+footer li {
+  margin-bottom: 8px;
+}
+ 
+footer a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: underline;
+}
+ 
+footer img {
+  width: 40px;
+  height: 40px;
+}
+
+.vk-text {
+  border: 2px solid #7F7B7F; 
+  padding: 4px 8px;             
+  border-radius: 10px;           
+  display: inline-block; 
+  background-color:#DBD9D9;
+  color: #7F7B7F;
+  font-family:"JetBrains Mono";
+  font-size: 20px;
+}
+
+.tg-text {
+  border: 2px solid #7F7B7F;       
+  padding: 4px 8px;            
+  border-radius: 10px;           
+  display: inline-block;
+  background-color:#DBD9D9; 
+  color: #7F7B7F;
+  font-weight: bold;
+  font-family:"JetBrains Mono";
+  font-size: 20px;
+}
+  .social-link {
+  text-decoration: none;       /* Убирает подчёркивание */
+  display: flex;              /* Выстраивает иконку и текст в ряд */
+  align-items: center;        /* Центрирует по вертикали */
+  gap: 8px;
+  font-weight: bold             /* Отступ между иконкой и текстом */
+}
+
+.info {
+  font-family:"JetBrains Mono";
+}
